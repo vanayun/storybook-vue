@@ -1,0 +1,32 @@
+{
+  "name": "vanayun",
+  "version": "1.0.0",
+  "description": "storybook-vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanayun/storybook-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanayun/storybook-vue/issues"
+  },
+  "homepage": "https://github.com/vanayun/storybook-vue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/vue": "^4.1.11",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
+}
